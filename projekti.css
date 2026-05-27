@@ -1,0 +1,269 @@
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .left, .right {
+        width: 100%;
+    }
+
+    .hero img {
+        height: 250px;
+    }
+
+    .hero-text {
+        font-size: 1.5rem;
+        bottom: 10px;
+        left: 10px;
+    }
+
+    .video-container iframe,
+    .map-container iframe {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero img {
+        height: 200px;
+    }
+
+    .hero-text {
+        font-size: 1.2rem;
+    }
+
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .social a {
+        margin-left: 10px;
+    }
+
+    .content {
+        padding: 10px;
+        gap: 15px;
+    }
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #120014;
+    color: #ffffff;
+}
+
+
+.header {
+    background: #240527;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.social a {
+    color: #ffbafa;
+    margin-left: 15px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+}
+
+.hero img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+}
+
+.hero-text {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px black;
+}
+
+.content {
+    display: flex;
+    gap: 40px;
+    padding: 40px;
+}
+
+.left {
+    flex: 2;
+    background: #2b1f3a;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.right {
+    flex: 1;
+    background: #3a2a47;
+    padding: 20px;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+.right a {
+    color: #ffbafa;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.quote {
+    text-align: center;
+    background: #2b1f3a;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.harrastustaulukko {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: #2b1f3a;
+}
+
+.harrastustaulukko th,
+.harrastustaulukko td {
+    border: 1px solid #7157a6;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.harrastustaulukko th {
+    background: #7157a6;
+    color: white;
+}
+.Lomake {
+    margin-top: 40px;
+    background: #2b1f3a;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+.Lomake form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.Lomake input,
+.Lomake textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background: #3a2a47;
+    color: white;
+}
+
+.Lomake button,
+.Lomake input[type="submit"] {
+    background: #4fef1f;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 5px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 600px;
+    border: 0;
+}
+
+.footer {
+    background: #240527;
+    padding: 15px;
+    text-align: center;
+    color: #ffffff;
+}
+nav a {
+    color: #ffffff;
+    text-decoration: underline;
+  
+}
+.btn {
+    background-color: #9b00ff;  
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-block;
+    transition: 0.2s ease;
+}
+.btn:hover {
+    background-color: #b533ff;   
+    transform: scale(1.05);
+}
+.extra-table {
+    width: 100%;
+    background-color: #240527;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: white;
+}
+
+.extra-table h2 {
+    margin-bottom: 15px;
+    color: #ffbafa;
+}
+
+.extra-table table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #2b1f3a;
+}
+
+.extra-table th,
+.extra-table td {
+    border: 1px solid #7157a6;
+    padding: 10px;
+    text-align: left;
+}
+
+.extra-table th {
+    background-color: #5a3a7a;
+    color: white;
+}
+.skills-table {
+    width: 93%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
